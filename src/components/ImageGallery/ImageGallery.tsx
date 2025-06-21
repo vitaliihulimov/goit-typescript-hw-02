@@ -7,7 +7,7 @@ interface ImageGalleryProps {
   onImageClick: (image: Image) => void;
 }
 
-export default function Imagegallery({
+export default function ImageGallery({
   images,
   onImageClick,
 }: ImageGalleryProps) {
